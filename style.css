@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar-a{
+    display: flex;
+    margin-top: -5px;
+    text-decoration: none;
+    color: white;
+}
+.navbar-brend{
+    margin-top: 5px;
+}
+.navbar-p{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.btn{
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+}
+.navbar-ab a{
+    list-style: none;
+    color: white;
+}
+.header-text{
+    margin-top: 9%;
+}
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(3, 23%);
+    grid-gap: 30px 120px;
+    
+}
+
+@media (max-width: 500px){
+    .section-2{
+        display: block;  
+    }   
+}
